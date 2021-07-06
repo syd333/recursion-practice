@@ -21,3 +21,7 @@ collectOddValues([1,2,3,4,5])
                     //[5].concat(collectOddValues([]))
                         //if empty return newArr
                             //newArr = [1,3,5]
+
+
+// for arrays use methods like slice, the spread operator, & concat that'll make
+    // copies of arrays so you dont mutate them 
