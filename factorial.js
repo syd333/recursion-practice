@@ -8,6 +8,12 @@ function factorial(num){
    return num * factorial(num - 1)
 }
 
+function factorial (x){
+    if (x < 0 ) return 0;
+    if (x <= 1) return 1;
+    return x * factorial(x -1) 
+}
+
 // write a function factorial which accepts a number 
 // and returns the factorial of that number
 // factorial is the product of an integer and all the integers below it
