@@ -1,5 +1,5 @@
 function reverse(str){
-    if (str.lengt === 0) return str;
+    if (str.length === 0) return str;
     return reverse(str.slice(1)) + str[0];
     
   }
